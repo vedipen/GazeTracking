@@ -33,7 +33,7 @@ gaze_0_x, gaze_0_y, gaze_0_z
 
 gaze_1_x, gaze_1_y, gaze_2_z 
 
-	> Eye gaze direction vector in world coordinates for eye 0 (normalized)
+> Eye gaze direction vector in world coordinates for eye 0 (normalized)
 
 Pose
 ----
@@ -50,3 +50,10 @@ pose_Rx, pose_Ry, pose_Rz
 > world or camera coordinates (for visualisation we want rotation with
 > respect to world coordinates). This is controlled by world_coord <1/0>
 > flag
+
+Run
+----
+
+	FeatureExtraction.exe -verbose -no2Dfp -no3Dfp -noMparams -noAUs -fx 700 -fy 700
+	-of "C:\Users\Dipen\Desktop\test.txt"
+
